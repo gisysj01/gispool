@@ -10,6 +10,8 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <iostream>
+#include <stdio.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -50,8 +52,8 @@ void testProcess()
 int main(int argc, const char * argv[]) {
     // insert code here...
     //std::cout << "Hello, World!\n";
-    //testMmap();
-    testProcess();
+    testMmap();
+    //testProcess();
     
     return 0;
 }
